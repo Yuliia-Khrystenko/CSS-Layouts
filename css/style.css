@@ -101,6 +101,11 @@ a:hover {
   transition: all 0.5s;
   color: white;
 }
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
 .text {
   display: inline-flex;
   justify-content: space-between;
@@ -118,6 +123,12 @@ a:hover {
 .img {
   background: #f3f3f3;
   padding: 0 40px;
+}
+.sample > img {
+  width: 450px;
+}
+.sample3 > img {
+  width: 450px;
 }
 h2 {
   text-align: center;
@@ -155,7 +166,7 @@ article.sample3 > p {
   padding-left: 20px;
   font-size: 17px;
   display: flex;
-  width: 100%;
+  width: 95%;
 }
 .subscribe > form > label {
   padding-top: 5px;
